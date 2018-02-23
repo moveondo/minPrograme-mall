@@ -1,0 +1,186 @@
+  .banner{
+            width: 100%;
+        }
+  .banner image{
+      width: 100%;
+      display: block;
+  }
+  .code{
+    display: flex;
+  }
+   .content{
+            padding: 3% 6%;
+            background: #ffffff;
+            position: relative;
+            text-align: center;
+        }
+        .title{
+            font-family: PingFangSC-Medium;
+            font-size: 33rpx;
+            color: #333333;
+            letter-spacing: 0;
+            margin: 5% 0;
+            font-weight: bold;
+            text-align: center;
+        }
+        .btn{
+         background:#049AFF;
+          border-radius:11rpx;
+          height:86rpx;
+          text-align:center;
+          color:#fff;
+          line-height:86rpx;
+          font-size:37rpx;
+          position:relative;
+        }
+        .limited{
+            position: absolute;
+            left: 0;
+            top:0;
+        }
+        .limited image{
+          width:82rpx;
+          height:82rpx;
+
+        }
+        .exp{
+            font-family: PingFangSC-Regular;
+            font-size: 24rpx;
+            color: #97ABB6;
+            letter-spacing: 0;
+            text-align: center;
+            margin: 2% 0;
+        }
+        .img{
+          margin-bottom: 20rpx;
+        }
+        .img image{
+            width: 84%;
+            text-align: center;
+            margin: 2% 8%;
+            display: block;
+            height:317rpx;
+
+        }
+        .desc{
+            display: flex;
+            font-family: PingFangSC-Medium;
+            font-size: 31rpx;
+            color: #505050;
+            letter-spacing: 0;
+            line-height: 14rpx;
+            margin: 9% 7% 3% 18%;
+        }
+        .desc .lineleft{
+            border-top: 1rpx solid #97ABB6;
+            width: 20%;
+            margin-top: 2%;
+        }
+        .desc .lineright{
+            border-top: 1rpx solid #97ABB6;
+            width: 20%;
+            margin-top: 2%;
+        }
+        .name{
+            margin: 0 5%;
+            font-weight: bold;
+        }
+        .reg{
+            width: 88%;
+            text-align: left;
+            margin: 0 6%;
+        }
+        .input ,.code{
+            border-bottom: 1rpx solid #E5E5E5;
+            position: relative;
+            margin: 5% 0;
+            padding-bottom: 1%;
+        }
+        .input input,.code input{
+            height: 30rpx;
+            line-height: 14rpx;
+            font-size: 28rpx;
+            color: #97ABB6;
+            border: none;
+            box-sizing: border-box;
+            vertical-align: middle;
+            -webkit-user-modify: read-write-plaintext-only;
+            -webkit-appearance: none;
+            background: transparent;
+        }
+        .redPlhd::-webkit-input-placeholder{
+            color:red;
+        }
+        input::-webkit-input-placeholder {
+            color:    #D1D1D1;
+        }
+        input:-moz-placeholder {
+            color:    #D1D1D1;
+        }
+        input::-moz-placeholder {
+            color:    #D1D1D1;
+        }
+        input:-ms-input-placeholder{
+            color:   #D1D1D1;
+        }
+        #btnSendSms{
+           background:#049AFF;
+            border-radius:12rpx;
+            color:#fff;
+            border:1rpx solid #049AFF;
+            float:right;
+            padding:1%;
+            height:60rpx;
+            line-height:49rpx;
+            font-size:24rpx;
+        }
+
+        /*totast*/
+
+        .pop{
+            position:fixed;
+            top:0;left:0;right:0;bottom:0;
+            background-color:#000;
+            opacity: 0.6;
+            z-index: 4;
+            display:none;
+        }
+        .toast {
+            display: none;
+            width: 75%;
+            position: fixed;
+            top: 40%;
+            left: 50%;
+            -webkit-transform: translate(-50%,-50%);
+            transform: translate(-50%,-50%);
+            box-sizing: border-box;
+            z-index: 5;
+            color: #333;
+            background: #fff;
+            border-radius: 8rpx;
+
+        }
+        .toast1 {
+            text-align: center;
+            background: #fff;
+            padding: 5% 7%;
+            line-height: 26rpx;
+            border-radius: 8rpx;
+        }
+        .toast1 p{
+            font-size: 16rpx;
+            padding: 10% 0;
+        }
+        .sureBtn {
+            height: 50rpx;
+            border-top: 1rpx solid #ccc;
+            font-size: 13rpx;
+            line-height: 50rpx;
+            background-color: #049aff;
+            color: #fff;
+            margin: 0 auto;
+            letter-spacing: 4rpx;
+            border-bottom-left-radius: 8rpx;
+            border-bottom-right-radius: 8rpx;
+            text-align: center;
+        }

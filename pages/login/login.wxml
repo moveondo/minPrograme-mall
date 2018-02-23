@@ -1,0 +1,33 @@
+   <view class="banner">
+         <image src="{{bannerimg}}" />    
+   </view>      
+  <view class="reg">
+    <view class="title">信用检测</view>
+    <view class="input">
+        <input  maxLength="11" placeholder="请输入您使用的手机号码" />
+    </view>
+    <view class="code">
+        <input type="text" maxLength="6"  placeholder="请输入短信验证码"/>
+        <button class='sendcode' id="btnSendSms">获得验证码</button >
+    </view>
+  </view>
+  <view class="content"> 
+   <view class="btn" id="check">
+        <view class="limited">
+            <image src="{{btnimg}}" />
+        </view>       
+           检测我的信用
+    </view>
+    <view class="exp" id="exp"  bindtap="expRead">
+        信用检测报告解读
+    </view>
+    <view class="desc">
+        <view class="lineleft"></view>
+        <view class="name">体检功能说明</view>
+        <view class="lineright"></view>
+    </view>
+
+</view>
+<view class="img">
+    <image src="{{banimg}}" />
+</view>
