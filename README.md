@@ -5,9 +5,13 @@
 
 原文： [https://github.com/EastWorld](https://github.com/EastWorld)。
 
+自己做了一个封面，感觉玩坏了！
+
 
 期待您的加入~
-
+<p>
+<img src="https://github.com/moveondo/minPrograme-mall/blob/master/images/min.png" >
+</p>
 
 
 ## 扫码体验
